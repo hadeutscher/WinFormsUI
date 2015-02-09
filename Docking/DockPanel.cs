@@ -1045,7 +1045,7 @@ namespace WeifenLuo.WinFormsUI.Docking
 		}
 
 		//2015 - haha01haha01
-        public event EventHandler<EventArgs> OnDockChanged;
+        public new event EventHandler<EventArgs> OnDockChanged;
 
         internal void InvokeDockStateChanged()
         {
