@@ -1,0 +1,1 @@
+This is a library for docking windows in C#, originally by Weifen Luo, with some modifications.
